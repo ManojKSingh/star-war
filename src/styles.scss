@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+
+$brand-text: #FFC300;
+$brand-background: #000000;
+
+body {
+    background-color: $brand-background;
+    color: $brand-text;
+}
